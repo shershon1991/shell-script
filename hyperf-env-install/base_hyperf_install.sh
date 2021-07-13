@@ -1,13 +1,5 @@
 #!/bin/bash
-#================================================================
-#   Copyright (C) 2020  All rights reserved.
-#
-#   File：：php_install.sh
-#   Author：Wangll
-#   Date：2020/08/03
-#   Description：install php and swoole
-#
-#================================================================
+
 work_path="pkg"
 php_install_path="/home/work/hyperf/php"
 php_name="php-7.2.32.tar.gz"
@@ -15,7 +7,6 @@ php_name="php-7.2.32.tar.gz"
 #swoole_url="https://github.com/swoole/swoole-src/archive/v4.5.2.tar.gz"
 #php_download_url="https://www.php.net/distributions/php-7.2.4.tar.gz"
 #redis_download_url="http://pecl.php.net/get/redis-5.2.2.tgz"
-
 
 # install php7.2
 install_php(){
