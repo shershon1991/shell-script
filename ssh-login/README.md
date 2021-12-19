@@ -1,10 +1,13 @@
-SSH 自动登录脚本
-1.赋予脚本可执行权限 `sudo chmod u+x goto.sh goto.ex goline.sh`
-2.将 goto 加入当前用户全局使用
+## SSH 自动登录脚本
+> 赋予脚本可执行权限 
+```sh
+sudo chmod u+x goto.sh goto.ex goline.sh
+```
 
-		```bash
-		➜  ~ echo "alias goto=\"$PWD/goto.sh\"" >> ~/.zshrc
-		echo "alias goline=\"$PWD/goline.sh\"" >> ~/.zshrc
-		➜  ~ source ~/.zshrc
-		➜  ~ goto
-		```
+> 将goto加入当前用户全局使用
+```sh
+➜  ~ echo "alias goto=\"$PWD/goto.sh\"" >> ~/.zshrc
+echo "alias goline=\"$PWD/goline.sh\"" >> ~/.zshrc
+➜  ~ source ~/.zshrc
+➜  ~ goto
+```
