@@ -1,4 +1,5 @@
 #!/usr/bin/expect
+
 set timeout 10
 spawn ssh name@host -p2222
 expect {
